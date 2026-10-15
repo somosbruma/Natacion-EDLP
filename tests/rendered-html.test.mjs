@@ -16,11 +16,11 @@ test('home renders the eight athletes without tabs, favorites or search', async 
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|Your site is taking shape/);
 });
 
-test('entry dataset preserves the 27 supplied times and original team order', async () => {
+test('entry dataset matches the 28 entries in the official start lists', async () => {
   const source = await readFile(new URL('../app/athletes.ts', import.meta.url), 'utf8');
   const athletes = JSON.parse(source.split('export const athletes: Athlete[] = ')[1].trim().replace(/;$/, ''));
-  assert.deepEqual(athletes.map(a => a.events.length), [4,5,3,4,4,2,3,2]);
-  assert.deepEqual(athletes.map(a => a.age), [55,58,58,41,42,56,62,39]);
+  assert.deepEqual(athletes.map(a => a.events.length), [4,5,3,4,4,2,3,3]);
+  assert.deepEqual(athletes.map(a => a.age), [55,58,58,42,42,56,62,39]);
   assert.equal(athletes[0].name, 'María De La Paz Gibert');
   assert.equal(athletes[7].name, 'Marcela Luciana Tobes');
   assert.deepEqual(athletes.map(a => a.events.map(e => [e.eventNumber,e.seedTime])), [
@@ -29,8 +29,20 @@ test('entry dataset preserves the 27 supplied times and original team order', as
     [[2,'11:20.00'],[6,'2:20.00'],[36,'5:18.00']],
     [[5,'3:25.00'],[11,'1:34.32'],[15,'41.73'],[35,'7:14.00']],
     [[8,'27.02'],[12,'56.80'],[16,'25.22'],[20,'1:04.00']],
-    [[13,'1:00.00'],[37,'2:40.00']],
+    [[29,'2:40.00'],[33,'1:00.00']],
     [[14,'48.94'],[16,'38.55'],[34,'40.25']],
-    [[15,'32.91'],[17,'3:20.13']]
+    [[11,'1:13.76'],[15,'32.91'],[17,'3:20.13']]
   ]);
+  const events = athletes.flatMap(a => a.events);
+  assert.equal(events.length, 28);
+  for (const e of events) {
+    assert.match(e.date, /^2026-10-2[1-7]$/);
+    assert.match(e.time, /^\d{2}:\d{2}$/);
+    assert.ok(Number.isInteger(e.heat) && Number.isInteger(e.heatCount) && e.heat >= 1 && e.heat <= e.heatCount);
+    assert.ok(Number.isInteger(e.lane) && e.lane >= 0 && e.lane <= 9);
+  }
+  const pick = (i, n) => athletes[i].events.find(e => e.eventNumber === n);
+  assert.deepEqual(pick(0, 3), { distance: 400, stroke: 'Combinados', eventNumber: 3, seedTime: '7:55.00', date: '2026-10-22', time: '12:32', heat: 4, heatCount: 10, lane: 1 });
+  assert.deepEqual([pick(5, 33).heat, pick(5, 33).lane, pick(5, 33).time], [8, 9, '12:22']);
+  assert.deepEqual([pick(7, 11).heat, pick(7, 11).heatCount, pick(7, 11).date], [20, 27, '2026-10-23']);
 });

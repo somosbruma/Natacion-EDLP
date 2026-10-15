@@ -20,8 +20,8 @@ npm test
 - `app/globals.css`: diseño responsive y accesibilidad.
 - `public/escudo-edlp.webp`: escudo provisto por el usuario.
 - Navegación mediante fragmentos de URL, compatible con volver/avanzar y enlaces directos.
-- Las categorías, tiempos, orden y eventos provienen del brief. No se recibió un PDF adicional para contrastarlos.
+- Pruebas, tiempos de inscripción, día, hora de inicio del heat, heat y línea provienen de los start lists oficiales (21–27/10/2026, `docs/start-lists/`). Contra el brief original se corrigieron: Yanina Picchio nada 50 y 100 Espalda (eventos 33 y 29), Marcela Tobes suma 100 Libre (evento 11) y María Victoria Spacapan figura con 42 años.
 
 ## Validación
 
-Las pruebas verifican las 27 inscripciones y la página renderizada. No se realizó QA visual ni interacción de navegador porque el navegador integrado no estuvo disponible.
+Las pruebas verifican las 28 inscripciones, sus heats y líneas, y la página renderizada. No se realizó QA visual ni interacción de navegador porque el navegador integrado no estuvo disponible.
