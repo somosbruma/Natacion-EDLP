@@ -42,7 +42,7 @@ test('entry dataset matches the 28 entries in the official start lists', async (
     assert.ok(Number.isInteger(e.lane) && e.lane >= 0 && e.lane <= 9);
   }
   const pick = (i, n) => athletes[i].events.find(e => e.eventNumber === n);
-  assert.deepEqual(pick(0, 3), { distance: 400, stroke: 'Combinados', eventNumber: 3, seedTime: '7:55.00', date: '2026-10-22', time: '12:32', heat: 4, heatCount: 10, lane: 1 });
+  assert.deepEqual(pick(0, 3), { distance: 400, stroke: 'Combinados', eventNumber: 3, seedTime: '7:55.00', date: '2026-10-22', time: '12:32', heat: 4, heatCount: 10, lane: 7 });
   assert.deepEqual([pick(5, 33).heat, pick(5, 33).lane, pick(5, 33).time], [8, 9, '12:22']);
   assert.deepEqual([pick(7, 11).heat, pick(7, 11).heatCount, pick(7, 11).date], [20, 27, '2026-10-23']);
 });

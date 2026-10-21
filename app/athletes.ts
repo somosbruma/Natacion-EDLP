@@ -17,7 +17,7 @@ export const athletes: Athlete[] = [
         "time": "12:32",
         "heat": 4,
         "heatCount": 10,
-        "lane": 1
+        "lane": 7
       },
       {
         "distance": 200,
@@ -28,7 +28,7 @@ export const athletes: Athlete[] = [
         "time": "12:33",
         "heat": 6,
         "heatCount": 18,
-        "lane": 7
+        "lane": 4
       },
       {
         "distance": 200,
@@ -36,10 +36,10 @@ export const athletes: Athlete[] = [
         "eventNumber": 17,
         "seedTime": "3:50.00",
         "date": "2026-10-24",
-        "time": "14:12",
+        "time": "14:10",
         "heat": 5,
         "heatCount": 16,
-        "lane": 6
+        "lane": 3
       },
       {
         "distance": 100,
@@ -67,7 +67,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 1,
         "seedTime": "13:39.65",
         "date": "2026-10-21",
-        "time": "14:06",
+        "time": "14:08",
         "heat": 8,
         "heatCount": 16,
         "lane": 6
@@ -111,7 +111,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 37,
         "seedTime": "1:48.88",
         "date": "2026-10-27",
-        "time": "18:16",
+        "time": "18:17",
         "heat": 5,
         "heatCount": 14,
         "lane": 7
@@ -131,10 +131,10 @@ export const athletes: Athlete[] = [
         "eventNumber": 2,
         "seedTime": "11:20.00",
         "date": "2026-10-21",
-        "time": "18:15",
+        "time": "18:17",
         "heat": 10,
         "heatCount": 18,
-        "lane": 1
+        "lane": 7
       },
       {
         "distance": 200,
@@ -145,7 +145,7 @@ export const athletes: Athlete[] = [
         "time": "17:56",
         "heat": 18,
         "heatCount": 26,
-        "lane": 2
+        "lane": 7
       },
       {
         "distance": 400,
@@ -184,7 +184,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 11,
         "seedTime": "1:34.32",
         "date": "2026-10-23",
-        "time": "15:42",
+        "time": "15:43",
         "heat": 16,
         "heatCount": 27,
         "lane": 6
@@ -195,9 +195,9 @@ export const athletes: Athlete[] = [
         "eventNumber": 15,
         "seedTime": "41.73",
         "date": "2026-10-24",
-        "time": "12:27",
-        "heat": 16,
-        "heatCount": 28,
+        "time": "12:25",
+        "heat": 15,
+        "heatCount": 27,
         "lane": 7
       },
       {
@@ -226,7 +226,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 8,
         "seedTime": "27.02",
         "date": "2026-10-22",
-        "time": "19:23",
+        "time": "19:22",
         "heat": 18,
         "heatCount": 33,
         "lane": 6
@@ -237,7 +237,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 12,
         "seedTime": "56.80",
         "date": "2026-10-23",
-        "time": "17:08",
+        "time": "17:10",
         "heat": 23,
         "heatCount": 37,
         "lane": 3
@@ -248,7 +248,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 16,
         "seedTime": "25.22",
         "date": "2026-10-24",
-        "time": "13:25",
+        "time": "13:24",
         "heat": 25,
         "heatCount": 42,
         "lane": 3
@@ -259,7 +259,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 20,
         "seedTime": "1:04.00",
         "date": "2026-10-24",
-        "time": "17:40",
+        "time": "17:37",
         "heat": 11,
         "heatCount": 21,
         "lane": 6
@@ -310,9 +310,9 @@ export const athletes: Athlete[] = [
         "eventNumber": 14,
         "seedTime": "48.94",
         "date": "2026-10-23",
-        "time": "18:22",
-        "heat": 6,
-        "heatCount": 32,
+        "time": "18:21",
+        "heat": 5,
+        "heatCount": 31,
         "lane": 4
       },
       {
@@ -321,7 +321,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 16,
         "seedTime": "38.55",
         "date": "2026-10-24",
-        "time": "13:00",
+        "time": "12:58",
         "heat": 7,
         "heatCount": 42,
         "lane": 0
@@ -352,7 +352,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 11,
         "seedTime": "1:13.76",
         "date": "2026-10-23",
-        "time": "15:52",
+        "time": "15:53",
         "heat": 20,
         "heatCount": 27,
         "lane": 9
@@ -365,7 +365,7 @@ export const athletes: Athlete[] = [
         "date": "2026-10-24",
         "time": "12:33",
         "heat": 19,
-        "heatCount": 28,
+        "heatCount": 27,
         "lane": 2
       },
       {
@@ -374,7 +374,7 @@ export const athletes: Athlete[] = [
         "eventNumber": 17,
         "seedTime": "3:20.13",
         "date": "2026-10-24",
-        "time": "14:26",
+        "time": "14:24",
         "heat": 8,
         "heatCount": 16,
         "lane": 5
