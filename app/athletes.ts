@@ -17,7 +17,9 @@ export const athletes: Athlete[] = [
         "time": "12:32",
         "heat": 4,
         "heatCount": 10,
-        "lane": 7
+        "lane": 7,
+        "result": "8:19.69",
+        "position": 6
       },
       {
         "distance": 200,
@@ -28,7 +30,9 @@ export const athletes: Athlete[] = [
         "time": "12:33",
         "heat": 6,
         "heatCount": 18,
-        "lane": 4
+        "lane": 4,
+        "result": "3:51.98",
+        "position": 7
       },
       {
         "distance": 200,
@@ -39,7 +43,9 @@ export const athletes: Athlete[] = [
         "time": "14:10",
         "heat": 5,
         "heatCount": 16,
-        "lane": 3
+        "lane": 3,
+        "result": "3:49.78",
+        "position": 6
       },
       {
         "distance": 100,
@@ -50,7 +56,9 @@ export const athletes: Athlete[] = [
         "time": "15:48",
         "heat": 9,
         "heatCount": 19,
-        "lane": 8
+        "lane": 8,
+        "result": "1:49.08",
+        "position": 8
       }
     ]
   },
@@ -70,7 +78,9 @@ export const athletes: Athlete[] = [
         "time": "14:08",
         "heat": 8,
         "heatCount": 16,
-        "lane": 6
+        "lane": 6,
+        "result": "13:09.84",
+        "position": 4
       },
       {
         "distance": 200,
@@ -81,7 +91,9 @@ export const athletes: Athlete[] = [
         "time": "16:04",
         "heat": 9,
         "heatCount": 19,
-        "lane": 0
+        "lane": 0,
+        "result": "3:07.96",
+        "position": 4
       },
       {
         "distance": 200,
@@ -92,7 +104,9 @@ export const athletes: Athlete[] = [
         "time": "13:31",
         "heat": 6,
         "heatCount": 13,
-        "lane": 3
+        "lane": 3,
+        "result": "3:51.30",
+        "position": 7
       },
       {
         "distance": 400,
@@ -103,7 +117,9 @@ export const athletes: Athlete[] = [
         "time": "14:30",
         "heat": 8,
         "heatCount": 18,
-        "lane": 4
+        "lane": 4,
+        "result": "6:26.07",
+        "position": 6
       },
       {
         "distance": 100,
@@ -114,7 +130,9 @@ export const athletes: Athlete[] = [
         "time": "18:17",
         "heat": 5,
         "heatCount": 14,
-        "lane": 7
+        "lane": 7,
+        "result": "1:48.06",
+        "position": 5
       }
     ]
   },
@@ -134,7 +152,9 @@ export const athletes: Athlete[] = [
         "time": "18:17",
         "heat": 10,
         "heatCount": 18,
-        "lane": 7
+        "lane": 7,
+        "result": "11:48.87",
+        "position": 2
       },
       {
         "distance": 200,
@@ -145,7 +165,9 @@ export const athletes: Athlete[] = [
         "time": "17:56",
         "heat": 18,
         "heatCount": 26,
-        "lane": 7
+        "lane": 7,
+        "result": "2:33.46",
+        "position": 5
       },
       {
         "distance": 400,
@@ -156,7 +178,9 @@ export const athletes: Athlete[] = [
         "time": "17:10",
         "heat": 11,
         "heatCount": 19,
-        "lane": 4
+        "lane": 4,
+        "result": "5:36.06",
+        "position": 5
       }
     ]
   },
@@ -176,7 +200,9 @@ export const athletes: Athlete[] = [
         "time": "15:56",
         "heat": 7,
         "heatCount": 19,
-        "lane": 7
+        "lane": 7,
+        "result": "3:15.33",
+        "position": 16
       },
       {
         "distance": 100,
@@ -187,7 +213,9 @@ export const athletes: Athlete[] = [
         "time": "15:43",
         "heat": 16,
         "heatCount": 27,
-        "lane": 6
+        "lane": 6,
+        "result": "1:26.20",
+        "position": 23
       },
       {
         "distance": 50,
@@ -198,7 +226,9 @@ export const athletes: Athlete[] = [
         "time": "12:25",
         "heat": 15,
         "heatCount": 27,
-        "lane": 7
+        "lane": 7,
+        "result": "38.26",
+        "position": 23
       },
       {
         "distance": 400,
@@ -209,7 +239,9 @@ export const athletes: Athlete[] = [
         "time": "14:14",
         "heat": 6,
         "heatCount": 18,
-        "lane": 5
+        "lane": 5,
+        "result": "6:59.08",
+        "position": 17
       }
     ]
   },
@@ -229,7 +261,9 @@ export const athletes: Athlete[] = [
         "time": "19:22",
         "heat": 18,
         "heatCount": 33,
-        "lane": 6
+        "lane": 6,
+        "result": "28.72",
+        "position": 6
       },
       {
         "distance": 100,
@@ -240,7 +274,9 @@ export const athletes: Athlete[] = [
         "time": "17:10",
         "heat": 23,
         "heatCount": 37,
-        "lane": 3
+        "lane": 3,
+        "result": "1:02.65",
+        "position": 12
       },
       {
         "distance": 50,
@@ -251,7 +287,9 @@ export const athletes: Athlete[] = [
         "time": "13:24",
         "heat": 25,
         "heatCount": 42,
-        "lane": 3
+        "lane": 3,
+        "result": "27.47",
+        "position": 13
       },
       {
         "distance": 100,
@@ -262,7 +300,9 @@ export const athletes: Athlete[] = [
         "time": "17:37",
         "heat": 11,
         "heatCount": 21,
-        "lane": 6
+        "lane": 6,
+        "result": "1:10.28",
+        "position": 8
       }
     ]
   },
@@ -282,7 +322,9 @@ export const athletes: Athlete[] = [
         "time": "15:44",
         "heat": 8,
         "heatCount": 19,
-        "lane": 6
+        "lane": 6,
+        "result": "1:38.23",
+        "position": 6
       },
       {
         "distance": 50,
@@ -293,7 +335,9 @@ export const athletes: Athlete[] = [
         "time": "12:22",
         "heat": 8,
         "heatCount": 18,
-        "lane": 9
+        "lane": 9,
+        "result": "44.72",
+        "position": 5
       }
     ]
   },
@@ -313,7 +357,9 @@ export const athletes: Athlete[] = [
         "time": "18:21",
         "heat": 5,
         "heatCount": 31,
-        "lane": 4
+        "lane": 4,
+        "result": "49.06",
+        "position": 20
       },
       {
         "distance": 50,
@@ -324,7 +370,9 @@ export const athletes: Athlete[] = [
         "time": "12:58",
         "heat": 7,
         "heatCount": 42,
-        "lane": 0
+        "lane": 0,
+        "result": "37.76",
+        "position": 29
       },
       {
         "distance": 50,
@@ -335,7 +383,9 @@ export const athletes: Athlete[] = [
         "time": "12:55",
         "heat": 6,
         "heatCount": 19,
-        "lane": 0
+        "lane": 0,
+        "result": "48.80",
+        "position": 14
       }
     ]
   },
@@ -355,7 +405,9 @@ export const athletes: Athlete[] = [
         "time": "15:53",
         "heat": 20,
         "heatCount": 27,
-        "lane": 9
+        "lane": 9,
+        "result": "1:14.34",
+        "position": 13
       },
       {
         "distance": 50,
@@ -366,7 +418,9 @@ export const athletes: Athlete[] = [
         "time": "12:33",
         "heat": 19,
         "heatCount": 27,
-        "lane": 2
+        "lane": 2,
+        "result": "32.50",
+        "position": 14
       },
       {
         "distance": 200,
@@ -377,7 +431,9 @@ export const athletes: Athlete[] = [
         "time": "14:24",
         "heat": 8,
         "heatCount": 16,
-        "lane": 5
+        "lane": 5,
+        "result": "3:11.64",
+        "position": 8
       }
     ]
   }
